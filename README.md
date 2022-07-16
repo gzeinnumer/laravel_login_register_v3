@@ -2,6 +2,7 @@
 
 https://codeanddeploy.com/blog/laravel/laravel-8-authentication-login-and-registration-with-username-or-email
 
+----
 #### Set Route
 
 ```php
