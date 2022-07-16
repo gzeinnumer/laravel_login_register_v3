@@ -41,6 +41,12 @@ Route::group(['middleware' => ['auth']], function () {
 ```
 
 ---
+#### Session
+```php
+<?php $data = Illuminate\Support\Facades\Session::get('success'); ?>
+```
+
+---
 #### Set Home
 
 - App\Providers\RouteServiceProvider.php
@@ -51,7 +57,7 @@ public const HOME = '/';
 
 ---
 #### Set App\Http\Middleware\Authenticate
-```
+```php
 <?php
 
 namespace App\Http\Middleware;
